@@ -1,0 +1,45 @@
+{
+  "protocol_name": "source_grouped_split_v1",
+  "dataset_id": "abdullahyousuf54/hindi-asr-all-augmented-v3",
+  "dataset_revision": "3c129569bb53f9847119753eb9fd3d91b640ee27",
+  "seed": 42,
+  "grouping_key": "normalized original_audio path; represented publicly by SHA-256 source_group_id",
+  "stratification": "domain_tag × language_mix",
+  "target_proportions": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "allocation_method": "seeded shuffle within strata; largest-remainder allocation",
+  "row_counts": {
+    "train": 8599,
+    "validation": 1072,
+    "test": 1075
+  },
+  "source_group_counts": {
+    "test": 746,
+    "train": 6001,
+    "validation": 752
+  },
+  "total_rows": 10746,
+  "total_source_groups": 7499,
+  "cross_split_source_groups": 0,
+  "public_row_manifest_sha256": "5105bc53b7745e504022e932bb3d5b1d076ff361a49714edfc51bcc1259912f7",
+  "public_group_assignments_sha256": "1d688a82971805f98c77b823076530341256493c9df69e78317e54524ad5e73a",
+  "split_candidate_id_hashes": {
+    "train": {
+      "row_count": 8599,
+      "candidate_id_ordered_sha256": "dc2f453c00b8f0516f6585238477b5afe6ad193837fc08c139dfe5af651c9e37"
+    },
+    "validation": {
+      "row_count": 1072,
+      "candidate_id_ordered_sha256": "0fe92bd40accf414aa2f9bdb0722b24ec71c443b706d3d3e27b1b314fee88e4e"
+    },
+    "test": {
+      "row_count": 1075,
+      "candidate_id_ordered_sha256": "73a8a6084a4e3af99a22de6aa9b8d9997aab01cfcdedb7a89da498a07bc6a173"
+    }
+  },
+  "local_dataset_path": null,
+  "github_policy": "Only candidate IDs, anonymized source-group IDs, split labels, and domain/language metadata; no audio, transcript text, or original paths"
+}

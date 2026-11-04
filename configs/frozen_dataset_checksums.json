@@ -1,0 +1,18 @@
+{
+  "public_row_manifest_sha256": "5105bc53b7745e504022e932bb3d5b1d076ff361a49714edfc51bcc1259912f7",
+  "public_group_assignments_sha256": "1d688a82971805f98c77b823076530341256493c9df69e78317e54524ad5e73a",
+  "split_candidate_id_hashes": {
+    "train": {
+      "row_count": 8599,
+      "candidate_id_ordered_sha256": "dc2f453c00b8f0516f6585238477b5afe6ad193837fc08c139dfe5af651c9e37"
+    },
+    "validation": {
+      "row_count": 1072,
+      "candidate_id_ordered_sha256": "0fe92bd40accf414aa2f9bdb0722b24ec71c443b706d3d3e27b1b314fee88e4e"
+    },
+    "test": {
+      "row_count": 1075,
+      "candidate_id_ordered_sha256": "73a8a6084a4e3af99a22de6aa9b8d9997aab01cfcdedb7a89da498a07bc6a173"
+    }
+  }
+}

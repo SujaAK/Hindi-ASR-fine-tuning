@@ -1,0 +1,35 @@
+{
+  "dataset_id": "abdullahyousuf54/hindi-asr-all-augmented-v3",
+  "dataset_revision": "3c129569bb53f9847119753eb9fd3d91b640ee27",
+  "seed": 42,
+  "grouping_key": "audio_key = lower(trim(original_audio with backslashes replaced by slashes))",
+  "stratification": "domain_tag \u00d7 language_mix",
+  "target_proportions": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "allocation_method": "Within each stratum: seeded shuffle; largest-remainder integer allocation",
+  "split_names": [
+    "train",
+    "validation",
+    "test"
+  ],
+  "row_count": 10746,
+  "source_group_count": 7499,
+  "cross_split_source_groups": 0,
+  "row_counts": {
+    "train": 8599,
+    "test": 1075,
+    "validation": 1072
+  },
+  "group_counts": {
+    "train": 6001,
+    "validation": 752,
+    "test": 746
+  },
+  "manifest_sha256": "e0d60e3fbbe3533cf6a1085e85fe02772295ec3f12ec730e17ddb48f9f851f42",
+  "group_assignments_sha256": "78e4621aab33cfce73c41a09ecb864b1a694f2bd4e05d18c150392fb737b331e",
+  "protocol_name": "source_grouped_split_v1",
+  "status": "reviewed; frozen version 1"
+}
