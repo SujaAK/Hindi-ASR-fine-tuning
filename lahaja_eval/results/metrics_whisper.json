@@ -1,0 +1,15 @@
+{
+  "model": "whisper-medium-hindi-lora",
+  "n_samples": 6152,
+  "WER": 0.436096157879493,
+  "CER": 0.2390248088123304,
+  "decoding": "greedy, language=hindi forced, fp16",
+  "normalization": "NFC, strip ZWJ/ZWNJ, strip nukta, lowercase, drop non L/M/N chars",
+  "versions": {
+    "transformers": "5.20.2",
+    "peft": "0.21.2",
+    "torch": "2.11.0+cu130",
+    "jiwer": "4.0.0",
+    "python": "3.13.16"
+  }
+}
